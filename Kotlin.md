@@ -19,7 +19,7 @@ crtl + alt + l formata codigo
 ## declaração de função:
 * necessário indicar tipo do parâmetro;
   *  ex: fun testasaldo (saldo : Double){}
-
+## Aprendemos que existem 2 construtores no Kotlin: o primário e o secundário. Em situações que desejamos executar trechos de código a mais, o construtor secundário é mais interessante. Caso seja só inicialização, o construtor primário é o esperado.
 ~~~~
 fun main()
 {
