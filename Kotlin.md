@@ -2,6 +2,7 @@
 *ctrl /  comenta código e descomenta
 *crtl + alt + l formata codigo
 * Você pode fazer manualmente ou usar o atalho Ctrl + Alt + M do IntelliJ para usar o Extract Function.
+*  Conta.kt ou usar o atalho do IntelliJ Alt + Enter e escolher a opção Extract 'Conta' from current file.
 # Variables
 * mutável (var)
 * imutável (val) -não modifica valor depois que foi inicializada a variavel
