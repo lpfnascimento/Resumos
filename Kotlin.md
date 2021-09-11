@@ -3,6 +3,8 @@
 *crtl + alt + l formata codigo
 * Você pode fazer manualmente ou usar o atalho Ctrl + Alt + M do IntelliJ para usar o Extract Function.
 *  Conta.kt ou usar o atalho do IntelliJ Alt + Enter e escolher a opção Extract 'Conta' from current file.
+*  “Alt + Shift + X = fecha todos arquivos
+*   “Alt + Enter” =  Put Parameters on Separate Lines, que vai colocar cada um desses parâmetros em linhas separadas.
 # Variables
 * mutável (var)
 * imutável (val) -não modifica valor depois que foi inicializada a variavel
