@@ -6,6 +6,7 @@
 *  “Alt + Shift + X = fecha todos arquivos
 *   “Alt + Enter” =  Put Parameters on Separate Lines, que vai colocar cada um desses parâmetros em linhas separadas.
 *   F5 = copia classe mas muda nome; interessante em heranças
+*   "ctrl + b" : quando quer saber onde a classe está no codigo, seleciona classe e clica crtl b
 # Variables
 * mutável (var)
 * imutável (val) -não modifica valor depois que foi inicializada a variavel
@@ -26,10 +27,22 @@
   *  ex: fun testasaldo (saldo : Double){}
 ## Aprendemos que existem 2 construtores no Kotlin: o primário e o secundário. Em situações que desejamos executar trechos de código a mais, o construtor secundário é mais interessante. Caso seja só inicialização, o construtor primário é o esperado.
 
+### Polimorfismo: 
+#### para trab com polimorfismo, deve trabalhar com metodos genéricos encontrados na classe-mãe; não vai conseguir trabalhar com metodos especifcos de cada classe filha!!!
+* utilizar o mesmo método generico da classe-mãe para entidades/instancias diferentes(filhas da classe mae)
+* conseguimos trabalhar com diferentes instâncias que tem o mesmo tipo em comum e dessa maneira, conseguimos reutilizar os comportamentos que são comuns entre esse tipo, que é comum entre elas. No caso, o funcionário.
+* conseguimos mandar apenas uma única referência na assinatura e conseguimos enviar várias instâncias diferentes, mas que herdam do mesmo tipo.
+* O principal motivo, como podemos ver é que conseguimos reutilizar exatamente o mesmo código em comportamentos comuns entre a classe mãe e os seus filhos, que é o caso do uso da bonificação. Dado que a bonificação é comum para qualquer funcionário, nós conseguimos fazer operações com ela, mandando apenas a referência do funcionário.
+
 # Herança
 ### declarando
 * class NomeClass (parameters - são var da classe mae/mais: variveis classe filha): NomeClasseMae(properties); open = open na classe mãe permite que a classe faça herança.
 * overriding = colocado em metodos que são o mesmo da classe mãe porém precisam de um modificação especifica para a classe filha
+* assinaturas de metodos da classe deve ser diferente como no java
+* super = é o que permeite reutilizar um metodo existente e também fazer uma modificação sobre este método. 
+* quando se replica demais um código é sinal de que te outro jeito para realizar;
+* classes filhas utilizam de métodos da classe mae - então pode usar um método mais generico possivel quando se quer abranger todas as heranças; 
+* porém, quando se quer algo mais específico, não pode usar algo generico. Por exemplo, filhas podem usar metodo mãe - porem mae n~çao pode usar metodo filha;
 
 ~~~~
 fun main()
