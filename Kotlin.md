@@ -5,6 +5,7 @@
 *  Conta.kt ou usar o atalho do IntelliJ Alt + Enter e escolher a opção Extract 'Conta' from current file.
 *  “Alt + Shift + X = fecha todos arquivos
 *   “Alt + Enter” =  Put Parameters on Separate Lines, que vai colocar cada um desses parâmetros em linhas separadas.
+*   F5 = copia classe mas muda nome; interessante em heranças
 # Variables
 * mutável (var)
 * imutável (val) -não modifica valor depois que foi inicializada a variavel
@@ -24,6 +25,12 @@
 * necessário indicar tipo do parâmetro;
   *  ex: fun testasaldo (saldo : Double){}
 ## Aprendemos que existem 2 construtores no Kotlin: o primário e o secundário. Em situações que desejamos executar trechos de código a mais, o construtor secundário é mais interessante. Caso seja só inicialização, o construtor primário é o esperado.
+
+# Herança
+### declarando
+* class NomeClass (parameters - são var da classe mae/mais: variveis classe filha): NomeClasseMae(properties); open = open na classe mãe permite que a classe faça herança.
+* overriding = colocado em metodos que são o mesmo da classe mãe porém precisam de um modificação especifica para a classe filha
+
 ~~~~
 fun main()
 {
