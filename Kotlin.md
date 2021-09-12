@@ -27,12 +27,7 @@
   *  ex: fun testasaldo (saldo : Double){}
 ## Aprendemos que existem 2 construtores no Kotlin: o primário e o secundário. Em situações que desejamos executar trechos de código a mais, o construtor secundário é mais interessante. Caso seja só inicialização, o construtor primário é o esperado.
 
-### Polimorfismo: 
-#### para trab com polimorfismo, deve trabalhar com metodos genéricos encontrados na classe-mãe; não vai conseguir trabalhar com metodos especifcos de cada classe filha!!!
-* utilizar o mesmo método generico da classe-mãe para entidades/instancias diferentes(filhas da classe mae)
-* conseguimos trabalhar com diferentes instâncias que tem o mesmo tipo em comum e dessa maneira, conseguimos reutilizar os comportamentos que são comuns entre esse tipo, que é comum entre elas. No caso, o funcionário.
-* conseguimos mandar apenas uma única referência na assinatura e conseguimos enviar várias instâncias diferentes, mas que herdam do mesmo tipo.
-* O principal motivo, como podemos ver é que conseguimos reutilizar exatamente o mesmo código em comportamentos comuns entre a classe mãe e os seus filhos, que é o caso do uso da bonificação. Dado que a bonificação é comum para qualquer funcionário, nós conseguimos fazer operações com ela, mandando apenas a referência do funcionário.
+
 
 # Herança
 ### declarando
@@ -44,6 +39,12 @@
 * classes filhas utilizam de métodos da classe mae - então pode usar um método mais generico possivel quando se quer abranger todas as heranças; 
 * porém, quando se quer algo mais específico, não pode usar algo generico. Por exemplo, filhas podem usar metodo mãe - porem mae n~çao pode usar metodo filha;
 
+### Polimorfismo: 
+#### para trab com polimorfismo, deve trabalhar com metodos genéricos encontrados na classe-mãe; não vai conseguir trabalhar com metodos especifcos de cada classe filha!!!
+* utilizar o mesmo método generico da classe-mãe para entidades/instancias diferentes(filhas da classe mae)
+* conseguimos trabalhar com diferentes instâncias que tem o mesmo tipo em comum e dessa maneira, conseguimos reutilizar os comportamentos que são comuns entre esse tipo, que é comum entre elas. No caso, o funcionário.
+* conseguimos mandar apenas uma única referência na assinatura e conseguimos enviar várias instâncias diferentes, mas que herdam do mesmo tipo.
+* O principal motivo, como podemos ver é que conseguimos reutilizar exatamente o mesmo código em comportamentos comuns entre a classe mãe e os seus filhos, que é o caso do uso da bonificação. Dado que a bonificação é comum para qualquer funcionário, nós conseguimos fazer operações com ela, mandando apenas a referência do funcionário.
 ~~~~
 fun main()
 {
