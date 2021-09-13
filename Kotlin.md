@@ -7,6 +7,7 @@
 *   “Alt + Enter” =  Put Parameters on Separate Lines, que vai colocar cada um desses parâmetros em linhas separadas.
 *   F5 = copia classe mas muda nome; interessante em heranças
 *   "ctrl + b" : quando quer saber onde a classe está no codigo, seleciona classe e clica crtl b
+*   "ctrl + n" : faz busca das classes no projeto
 # Variables
 * mutável (var)
 * imutável (val) -não modifica valor depois que foi inicializada a variavel
@@ -45,6 +46,14 @@
 * conseguimos trabalhar com diferentes instâncias que tem o mesmo tipo em comum e dessa maneira, conseguimos reutilizar os comportamentos que são comuns entre esse tipo, que é comum entre elas. No caso, o funcionário.
 * conseguimos mandar apenas uma única referência na assinatura e conseguimos enviar várias instâncias diferentes, mas que herdam do mesmo tipo.
 * O principal motivo, como podemos ver é que conseguimos reutilizar exatamente o mesmo código em comportamentos comuns entre a classe mãe e os seus filhos, que é o caso do uso da bonificação. Dado que a bonificação é comum para qualquer funcionário, nós conseguimos fazer operações com ela, mandando apenas a referência do funcionário.
+
+### Abstrata
+* estrutura que vai servir como base para todos, mas é uma estrutura abstrata; é uma estrutura que nós não vamos criar de verdade. Nós só vamos usar como base para reutilizar.
+* funcionario não representa algo concretona vida real - funcionario, gerente: eles representam uma estrutura, denominação;
+* quando usa ** abstract ** não precisa mais do **open** - está implicitoquando escreve abstract; 
+* sempre terá que implementar -nomear as futuras instancias; ex:classe abstratafuncionario: não tem mais funcionario - precisa nomear qual cargo: faxineiro, analista, etc. Mas ele usa todas as properties da classe abstrata funcionario
+* métodos devem ser tb abstratos; Outro detalhe é sumir com a implementação: contas, comportamentos das funções/metodos: será apenas referenciada. ex: fun bonificação, fun recompensa. 
+* a paritr da classe abstrata, qualquer classe é obrigada a usar uma implementção do metodo da classe abs mae.
 ~~~~
 fun main()
 {
