@@ -1,3 +1,5 @@
+inicio mdulo curso: 16:15 / termino: 18:15 - 2h para módulo
+inicio curso: 14:30 / termino: 
 #Atalhos
 *ctrl /  comenta código e descomenta
 *crtl + alt + l formata codigo
@@ -82,6 +84,14 @@ fun main() {
    * realização de testes, 
    * empacotamento e deploy,
    * compatibilidade entre as diversas IDEs
+   * 
+## Composição = um atributo da classe aponta para outra classe;
+* **vantagem = mais autonomia para o código**
+* quando um atributo de uma classe aponta para outra classe; Ex: titular classe conta aponta para classe cliente, que tem todos os dados de cliente. 
+* independencia de criar atributos em uma classe e a outra só apontar para essa classe.
+* Se possível, é melhor usar composição ao inves de herança. Porque se mudar uma classe, não altera a outra. No caso de herança, é carregado atributos e comportamentos e uma mudança interfere em outros pontos do código. 
+* Com o uso da composição, o relacionamento é a classe ter outra, portanto, ela não vai ter as características da classe que a compõe, e sim a possibilidade de utilizá-la ou não.
+
 
 ~~~~
 fun main()
