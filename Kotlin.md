@@ -8,6 +8,7 @@
 *   F5 = copia classe mas muda nome; interessante em heranças
 *   "ctrl + b" : quando quer saber onde a classe está no codigo, seleciona classe e clica crtl b
 *   "ctrl + n" : faz busca das classes no projeto
+*   "ctrl + alt +o" : organiza automaticamente os pacotes (não usados e usados)
 # Variables
 * mutável (var)
 * imutável (val) -não modifica valor depois que foi inicializada a variavel
@@ -58,6 +59,29 @@
 ##Projeto em pacotes
 * regras de negocios guardada na pasta modelos; - package
 *  qunado arquivo que preciso não está no mesmo pacote é usado import
+~~~
+//import modelo.Analista
+//import modelo.CalculadoraBonificacao
+//import modelo.Diretor
+//import modelo.Gerente
+import modelo.* //jeito mais prático
+~~~
+### alias (as)
+* util quando quero importar algo e que é muito grande e pretendo gerar apelido / como tb em conflito de classe com nomes iguais
+~~~
+import java.lang.String as StringJava
+
+fun main() {
+    val palavra: String = ""
+    val palavraJava: StringJava = StringJava("")
+}
+~~~
+## Build tools
+* responsavel por automatizar tarefas rotineiras de um projeto - organiza e evita perder tempo; ** automatização e produtividade **
+   * adicionar uma nova biblioteca, 
+   * realização de testes, 
+   * empacotamento e deploy,
+   * compatibilidade entre as diversas IDEs
 
 ~~~~
 fun main()
