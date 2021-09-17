@@ -54,6 +54,11 @@
 * sempre terá que implementar -nomear as futuras instancias; ex:classe abstratafuncionario: não tem mais funcionario - precisa nomear qual cargo: faxineiro, analista, etc. Mas ele usa todas as properties da classe abstrata funcionario
 * métodos devem ser tb abstratos; Outro detalhe é sumir com a implementação: contas, comportamentos das funções/metodos: será apenas referenciada. ex: fun bonificação, fun recompensa. 
 * a paritr da classe abstrata, qualquer classe é obrigada a usar uma implementção do metodo da classe abs mae.
+
+##Projeto em pacotes
+* regras de negocios guardada na pasta modelos; - package
+*  qunado arquivo que preciso não está no mesmo pacote é usado import
+
 ~~~~
 fun main()
 {
