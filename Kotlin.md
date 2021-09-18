@@ -30,7 +30,7 @@ inicio curso: 14:30 / termino:
 * necessário indicar tipo do parâmetro;
   *  ex: fun testasaldo (saldo : Double){}
 ## Aprendemos que existem 2 construtores no Kotlin: o primário e o secundário. Em situações que desejamos executar trechos de código a mais, o construtor secundário é mais interessante. Caso seja só inicialização, o construtor primário é o esperado.
-
+### Toda vez que tem um construtor secundário, tem que fazer a invocação do primário; 
 
 
 # Herança
@@ -92,6 +92,7 @@ fun main() {
 * Se possível, é melhor usar composição ao inves de herança. Porque se mudar uma classe, não altera a outra. No caso de herança, é carregado atributos e comportamentos e uma mudança interfere em outros pontos do código. 
 * Com o uso da composição, o relacionamento é a classe ter outra, portanto, ela não vai ter as características da classe que a compõe, e sim a possibilidade de utilizá-la ou não.
 
+## Object declarations
 
 ~~~~
 fun main()
