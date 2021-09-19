@@ -11,6 +11,7 @@ inicio curso: 14:30 / termino:
 *   "ctrl + b" : quando quer saber onde a classe está no codigo, seleciona classe e clica crtl b
 *   "ctrl + n" : faz busca das classes no projeto
 *   "ctrl + alt +o" : organiza automaticamente os pacotes (não usados e usados)
+*   "ctrl + h": mostra hierarquia
 # Variables
 * mutável (var)
 * imutável (val) -não modifica valor depois que foi inicializada a variavel
@@ -93,5 +94,23 @@ fun main() {
 * Com o uso da composição, o relacionamento é a classe ter outra, portanto, ela não vai ter as características da classe que a compõe, e sim a possibilidade de utilizá-la ou não.
 
 ## Object declarations
+**procurar mais sobre e aprender bem o assunto**
 
+## Exceptions
+* para tratar exception, lnaça exceptions. Isso é feito em uma classe no kotlin - throwable; 
+#### try -catch para pegar exception
+- ClassCastException;
+- ArithmeticException;
+- NumberFormatException.
+
+### ler mais sobre exceptions e safe call e fazer resumo
+~~~~
+try {
+    // some code
+} catch (e: SomeException) {
+    // handler
+} finally {
+    // optional finally block
+}
+~~~~
 
