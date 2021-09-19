@@ -1,8 +1,11 @@
 # Comandos para Git e Github
 
 ### Primeiro passo: configurar o git
-- git config --local user.name "Seu nome aqui"
-- git config --local user.email "seu@email.aqui"
+- git config --local user.name "Seu nome aqui" - para alterar um projeto (--local) 
+- git config --global user.name "Seu nome aqui"- para alterar no sistema todo -todos projetos 
+- git config --local user.email "seu@email.aqui"  ou --global
+- git log (dados de usuario)
+- 
 
 
 ## Conceitos de Git
