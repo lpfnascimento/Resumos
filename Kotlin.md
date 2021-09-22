@@ -1,5 +1,4 @@
-inicio mdulo curso: 16:15 / termino: 18:15 - 2h para módulo
-inicio curso: 14:30 / termino: 
+
 #Atalhos
 *ctrl /  comenta código e descomenta
 *crtl + alt + l formata codigo
@@ -113,4 +112,10 @@ try {
     // optional finally block
 }
 ~~~~
-
+### Init
+- usado quando tem um construtor primario e deseja executar um tarefas na instancia na classe, em kotlin:
+  -  unit
+  -  construtor secundário
+- **init faz verificacoes imediadas das properties da classe assim que esta é inicializada**
+- The init block is always called after the primary constructor
+-  class file can have one or more init blocks executing in series i.e. one after another.
