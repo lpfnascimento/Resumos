@@ -119,3 +119,23 @@ try {
 - **init faz verificacoes imediadas das properties da classe assim que esta é inicializada**
 - The init block is always called after the primary constructor
 -  class file can have one or more init blocks executing in series i.e. one after another.
+
+## Nulls
+- tipos comuns são não nulos por padrão
+- "?" -> indica q var aceita nulos 
+
+### !!
+- Converte o tipo para um tipo not-null e caso o valor seja nulo resulta em NullPointerException.
+~~~
+fun strLen(value: String?) = value!!.length
+strLen(null)
+// NullPointerException
+~~~
+### Operador Elvis “?:”
+- Este operador valida se um objeto é nulo e provê uma forma de devolver um valor default:
+~~~
+fun retrieveAdjective(value: String?) = value ?: "awsome"
+val adjective = retrieveAdjective(null)
+println("kotlin is $adjective!")
+// kotlin is awsome!
+~~~
