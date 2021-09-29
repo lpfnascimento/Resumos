@@ -6,8 +6,8 @@
 * possui atributos;
 * **Atributos** descrevem entidade
 #### Atribrutos Simples ou compostos
-* compostos: que pode desmembrar/divididos em mais atributos. Pdem formar hierarquia. 
-    * ex: endereço {lougradouro, cep, cidade, estado...}, logradouro: {numero, complemento...}
+* compostos: que pode desmembrar/divididos em mais atributos. Podem formar hierarquia. 
+    * ex: endereço {logradouro, cep, cidade, estado...}, logradouro: {numero, complemento...}
 * Simples: que não pode desmembrar/dividir - chamado tb de  **atômico**.
     * ex: rua do endereço;
 
